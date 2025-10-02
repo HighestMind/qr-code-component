@@ -11,6 +11,7 @@ main{
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
     text-align: center;
+    
    
 
 }
@@ -19,7 +20,7 @@ section{
     background-color: #287ae6;
     border-radius: 10px 10px 10px 10px;
     padding: 50px;
-   
+    margin: 0px auto;
     text-align: center;
    
 }
@@ -35,4 +36,84 @@ p{
     display: none;
     color: rgba(0, 0, 0, 0.342);
 }
+
+
+@media screen and (max-width: 600px) {
+    main{
+        width: 50%;
+    }
+
+    section{
+        width: 50%;
+    }
+  
+}
+
+@media screen and (min-width: 600px) {
+    main{
+        width: 40%;
+    }
+
+    section{
+        width: 60%;
+    }
+  
+}
+
+
+@media screen and (min-width: 800px) {
+    main{
+        width: 35%;
+    }
+
+    section{
+        width: 60%;
+    }
+  
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        width: 30%;
+    }
+
+    section{
+        width: 60%;
+    }
+  
+}
+
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 25%;
+    }
+
+    section{
+        width: 65%;
+    }
+  
+}
+
+@media screen and (min-width: 1400px) {
+    main{
+        width: 15%;
+    }
+
+    section{
+        width: 50%;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
